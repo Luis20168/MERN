@@ -15,7 +15,7 @@
   \**************************/
 /***/ (() => {
 
-eval("throw new Error(\"Module parse failed: Unexpected token (9:12)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n|     render(){\\n|         return(\\n>             <h1>Hello work</h1>\\n|         )\\n| \");\n\n//# sourceURL=webpack://mern-stack-tasks/./src/app/index.js?");
+eval("throw new Error(\"Module parse failed: Unexpected token (11:12)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n|     render(){\\n|         return(\\n>             <h1>Hello work</h1>\\n|         )\\n| \");\n\n//# sourceURL=webpack://mern-stack-tasks/./src/app/index.js?");
 
 /***/ })
 
