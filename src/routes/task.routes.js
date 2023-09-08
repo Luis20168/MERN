@@ -22,10 +22,6 @@ router.get('/:id',async (req, res)=>{
 
 })
 
-
-
-
-
 router.post('/', async (req, res)=>{
     const {title, description}= req.body;
     const task= new Task({title, description})
@@ -35,6 +31,10 @@ router.post('/', async (req, res)=>{
     res.json({status: 'Task Saved'})
 
 })
+
+
+
+
 
 
 router.put('/:id',async (req, res)=>{
